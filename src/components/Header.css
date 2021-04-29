@@ -1,0 +1,16 @@
+.header {
+    background: url("./../images/banner.jpg");
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin: 10px auto;
+    background-position: 0 -230px;
+}
+
+.header h1{
+    color: #040000;
+    position: relative;
+    z-index: 999;
+    top:20px;
+}
+  

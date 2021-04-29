@@ -1,0 +1,96 @@
+.home{
+    width: 100%;
+    background-color: #23a4ab;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+}
+
+.row{
+    width: 65%;
+    margin: 0 auto;
+}
+.row .add-btn{
+    width: 210px;
+    background-color: grey;
+    margin: auto;
+    position: relative;
+}
+
+.row .add-btn .add-plus-btn{
+     display: none;
+}
+.row .add-btn:hover .add-plus-btn{
+    display: flex;
+}
+
+.col{
+    position: relative;
+}
+.course-img{
+    position: relative;
+}
+.course{
+    padding: 10px;
+    background-color: #ffff;    
+}
+.course-img img{
+    width:100px;
+}
+
+.course-details{
+    position: relative;
+}
+
+.course-details .author{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.description{
+    height: 50px;
+    background: #00a1ff;
+    color: #fff;
+    text-align: center;
+    padding: 0 12px;
+}
+
+.description span{ display: flex;
+    align-items: center;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+ .add-plus-btn{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    top: 0;
+    display: flex;
+    left: 0;
+    align-items: center;
+    right: 0;
+    margin: auto;
+    background-color: rgba(255,255,255,0.6);
+    height: 100%;
+}
+
+
+.add-plus-btn .icon{
+    color: #f7f9f7;
+    font-size: 50px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    background: #000000;
+}
+
+.home .input-text{
+    display: block;
+    position: relative;
+    background: #a9e3e8;
+    border: none;
+    left: 10px;     
+}

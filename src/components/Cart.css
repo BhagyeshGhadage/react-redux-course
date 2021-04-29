@@ -1,0 +1,19 @@
+.cart {
+    width: 15%;
+    transform: scale(0.8);
+    transform-origin: top;
+    background-color: #a9e3e8;
+    padding: 22px;
+}
+
+.cart .col{
+    margin: 10px auto;
+}
+
+.cart .row{
+    width:100%;
+}
+
+.cart .description span{
+    font-size: 12px;
+}
